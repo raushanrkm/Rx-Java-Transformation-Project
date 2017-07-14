@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97" started-at="2017-07-14T07:34:11Z" finished-at="2017-07-14T07:34:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97" started-at="2017-07-14T07:34:11Z" finished-at="2017-07-14T07:34:11Z">
+      <class name="com.onenow.hedgefund.market.test.FanOutTestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.onenow.hedgefund.market.test.FanOutTestNG@319b92f3]" name="setup" is-config="true" duration-ms="64" started-at="2017-07-14T02:34:11Z" finished-at="2017-07-14T02:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testForRegisterObserver()[pri:0, instance:com.onenow.hedgefund.market.test.FanOutTestNG@319b92f3]" name="testForRegisterObserver" duration-ms="63" started-at="2017-07-14T02:34:11Z" finished-at="2017-07-14T02:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForRegisterObserver -->
+        <test-method status="PASS" signature="testForDisplayKeyFromInvestmentObservers()[pri:0, instance:com.onenow.hedgefund.market.test.FanOutTestNG@319b92f3]" name="testForDisplayKeyFromInvestmentObservers" duration-ms="5" started-at="2017-07-14T02:34:11Z" depends-on-methods="com.onenow.hedgefund.market.test.FanOutTestNG.testForRegisterObserver" finished-at="2017-07-14T02:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForDisplayKeyFromInvestmentObservers -->
+        <test-method status="PASS" signature="testForNotifyObservers()[pri:0, instance:com.onenow.hedgefund.market.test.FanOutTestNG@319b92f3]" name="testForNotifyObservers" duration-ms="3" started-at="2017-07-14T02:34:11Z" depends-on-methods="com.onenow.hedgefund.market.test.FanOutTestNG.testForDisplayKeyFromInvestmentObservers" finished-at="2017-07-14T02:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForNotifyObservers -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.onenow.hedgefund.market.test.FanOutTestNG@319b92f3]" name="cleanup" is-config="true" duration-ms="0" started-at="2017-07-14T02:34:11Z" finished-at="2017-07-14T02:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.onenow.hedgefund.market.test.FanOutTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
